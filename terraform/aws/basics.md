@@ -8,4 +8,8 @@
 
 * Terraform destory
 
-
+# Terraform files
+* main.tf
+* variables.tf
+* outputs.tf
+* terraform.tfvars

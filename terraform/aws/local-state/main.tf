@@ -4,11 +4,15 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 4.16"
     }
+
+    #other providers here {}
+
   }
 
   required_version = ">= 1.2.0"
 }
 
+#if not providedd then default one is taken us-east-1
 provider "aws" {
   region  = "us-west-2"
 }
